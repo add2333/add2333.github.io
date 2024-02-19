@@ -10,9 +10,7 @@
 <meta name="description" content="A short retrospective of 2024 MCM/ICM">
 <meta name="author" content="">
 <link rel="canonical" href="https://add2333.github.io/retrospectives/retro_of_2024_mcm_icm/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.f14272278f84b296c805991fc439a29576b4dce6a1c0f9b88a2e8890cfdafecd.css" integrity="sha256-8UJyJ4&#43;EspbIBZkfxDmilXa03OahwPm4ii6IkM/a/s0=" rel="preload stylesheet" as="style">
-<script defer crossorigin="anonymous" src="/assets/js/highlight.6ac996bdc9f1a1e0f68f5458e3107b746bfdc11df8afdc81c684c53da047b3e2.js" integrity="sha256-asmWvcnxoeD2j1RY4xB7dGv9wR34r9yBxoTFPaBHs&#43;I="
-    onload="hljs.initHighlightingOnLoad();"></script>
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a167d4ce50c636de1f95c5426a4d2abc196a77a14d57c7ccf209b208281b12b2.css" integrity="sha256-oWfUzlDGNt4flcVCak0qvBlqd6FNV8fM8gmyCCgbErI=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://add2333.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://add2333.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://add2333.github.io/favicon-32x32.png">
@@ -76,7 +74,7 @@
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "retros",
+      "name": "retrospectives",
       "item": "https://add2333.github.io/retrospectives/"
     }, 
     {
@@ -171,7 +169,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://add2333.github.io">Home</a>&nbsp;»&nbsp;<a href="https://add2333.github.io/retrospectives/">retros</a></div>
+    <div class="breadcrumbs"><a href="https://add2333.github.io">Home</a>&nbsp;»&nbsp;<a href="https://add2333.github.io/retrospectives/">retrospectives</a></div>
     <h1 class="post-title">
       Retrospective of 2024 MCM/ICM
     </h1>
@@ -426,6 +424,53 @@
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 
