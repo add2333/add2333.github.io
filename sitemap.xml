@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://add2333.github.io/beamer/</loc>
+    <loc>https://add2333.github.io/tools/beamer/</loc>
   </url><url>
     <loc>https://add2333.github.io/categories/</loc>
   </url><url>
@@ -14,12 +14,16 @@
   </url><url>
     <loc>https://add2333.github.io/categories/retro/</loc>
   </url><url>
-    <loc>https://add2333.github.io/retro_of_2024_mcm_icm/</loc>
+    <loc>https://add2333.github.io/retrospectives/</loc>
+  </url><url>
+    <loc>https://add2333.github.io/retrospectives/retro_of_2024_mcm_icm/</loc>
   </url><url>
     <loc>https://add2333.github.io/search/</loc>
   </url><url>
     <loc>https://add2333.github.io/tags/</loc>
   </url><url>
     <loc>https://add2333.github.io/categories/tools/</loc>
+  </url><url>
+    <loc>https://add2333.github.io/tools/</loc>
   </url>
 </urlset>

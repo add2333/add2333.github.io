@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>retro on hahaha</title>
-    <link>https://add2333.github.io/categories/retro/</link>
-    <description>Recent content in retro on hahaha</description>
+    <title>retros on hahaha</title>
+    <link>https://add2333.github.io/retrospectives/</link>
+    <description>Recent content in retros on hahaha</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://add2333.github.io/categories/retro/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://add2333.github.io/retrospectives/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Retrospective of 2024 MCM/ICM</title>
       <link>https://add2333.github.io/retrospectives/retro_of_2024_mcm_icm/</link>

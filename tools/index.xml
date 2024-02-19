@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>tools on hahaha</title>
-    <link>https://add2333.github.io/categories/tools/</link>
+    <link>https://add2333.github.io/tools/</link>
     <description>Recent content in tools on hahaha</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://add2333.github.io/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://add2333.github.io/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Beamer Primary Usage</title>
       <link>https://add2333.github.io/tools/beamer/</link>
