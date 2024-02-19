@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>hahaha</title>
-    <link>https://add2333.github.io/</link>
-    <description>Recent content on hahaha</description>
+    <title>retro on hahaha</title>
+    <link>https://add2333.github.io/categories/retro/</link>
+    <description>Recent content in retro on hahaha</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://add2333.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Beamer Primary Usage</title>
-      <link>https://add2333.github.io/beamer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://add2333.github.io/beamer/</guid>
-      <description>A brief introduction to the fundamental usage of Beamer.</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://add2333.github.io/categories/retro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Retrospective of 2024 MCM/ICM</title>
       <link>https://add2333.github.io/retro_of_2024_mcm_icm/</link>
@@ -23,7 +14,6 @@
       <guid>https://add2333.github.io/retro_of_2024_mcm_icm/</guid>
       <description>A short retrospective of 2024 MCM/ICM</description>
     </item>
-    
     
   </channel>
 </rss>
