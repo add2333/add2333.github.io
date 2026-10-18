@@ -1,29 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://add2333.github.io/tools/beamer/</loc>
-  </url><url>
-    <loc>https://add2333.github.io/categories/</loc>
-  </url><url>
-    <loc>https://add2333.github.io/</loc>
-  </url><url>
-    <loc>https://add2333.github.io/tags/latex/</loc>
-  </url><url>
-    <loc>https://add2333.github.io/tags/retro/</loc>
-  </url><url>
-    <loc>https://add2333.github.io/categories/retro/</loc>
-  </url><url>
-    <loc>https://add2333.github.io/retrospectives/retro_of_2024_mcm_icm/</loc>
-  </url><url>
-    <loc>https://add2333.github.io/retrospectives/</loc>
-  </url><url>
-    <loc>https://add2333.github.io/search/</loc>
-  </url><url>
-    <loc>https://add2333.github.io/tags/</loc>
-  </url><url>
-    <loc>https://add2333.github.io/categories/tools/</loc>
-  </url><url>
-    <loc>https://add2333.github.io/tools/</loc>
-  </url>
-</urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Legacy URL from the Hugo build; the real index is sitemap-index.xml. -->
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://add2333.github.io/sitemap-0.xml</loc>
+  </sitemap>
+</sitemapindex>
